@@ -6,7 +6,7 @@ $ yum groupinstall "Development tools"  <br />
 [QPID Proton](https://docs.omniref.com/ruby/gems/qpid_proton/0.7.1/symbols/Qpid::Proton::Messenger#line=273)
 
 ### Server ActiveMQ
-ActiveMQ 5.12 & 5.13 works well
+ActiveMQ [5.12](https://archive.apache.org/dist/activemq/5.12.0/apache-activemq-5.12.0-bin.tar.gz) & 5.13 works well
 
 ### Client
 Qpid-proton messenger - ruby
