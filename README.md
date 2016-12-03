@@ -6,6 +6,7 @@ $ yum groupinstall "Development tools"  <br />
 [QPID Proton](https://docs.omniref.com/ruby/gems/qpid_proton/0.7.1/symbols/Qpid::Proton::Messenger#line=273)
 
 ### Server ActiveMQ
+ActiveMQ 5.12 & 5.13 works well
 
 ### Client
 Qpid-proton messenger - ruby
@@ -52,4 +53,9 @@ ruby send.rb -a amqp://10.66.137.175:5672/proton "test"
 ruby recv.rb amqp://10.66.137.175:5672/proton
 ```
 ### ssl configuration
- 
+Udpate send.rb & recv.rb to support ssl
+```
+messenger.certificate=("test.crt")
+messenger.private_key=("test.key")
+```
+
