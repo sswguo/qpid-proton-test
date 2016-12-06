@@ -4,6 +4,7 @@ $ yum groupinstall "Development tools"  <br />
 [Offical install guide](https://git-wip-us.apache.org/repos/asf?p=qpid-proton.git;a=blob_plain;f=INSTALL.md;hb=0.15.0) <br />
 [Ruby gem](https://github.com/apache/qpid-proton/tree/master/proton-c/bindings/ruby) <br />
 [QPID Proton](https://docs.omniref.com/ruby/gems/qpid_proton/0.7.1/symbols/Qpid::Proton::Messenger#line=273)
+[http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#section-introduction](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#section-introduction)
 
 ### Server ActiveMQ
 ActiveMQ [5.12](https://archive.apache.org/dist/activemq/5.12.0/apache-activemq-5.12.0-bin.tar.gz) & 5.13 works well
